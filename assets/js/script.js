@@ -78,9 +78,6 @@ saveButton.on('click', function storeEvent(event) {
 function renderPreviousNotes() {
     for (i = 0; i < workHourArray.length; i++) {
         var previousNote = JSON.parse(localStorage.getItem("textAreaKey" + workHourArray[i].id));
-        if (previousNote === null) {
-            return;
-        }
         $(planner).find(`[data-time='${workHourArray[i].id}']`).val(previousNote);
     }
 }
