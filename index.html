@@ -18,10 +18,10 @@
       href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
     <title>Work Day Scheduler</title>
   </head>
-
+  
   <body>
     <header class="jumbotron">
       <h1 class="display-3">Work Day Scheduler</h1>
@@ -30,9 +30,65 @@
     </header>
     <div class="container">
       <!-- Timeblocks go here -->
+      <div class="planner">
+        <div class="row time-block" id="9AM">
+          <div class="hour">9AM</div>
+          <div class="description"><textarea data-time="9AM"></textarea></div>
+          <button data-time="9AM" class="saveBtn"><i class="fas fa-save"></i></button>
+        </div>
+        <div class="row time-block" id="10AM">
+          <div class="hour">10AM</div>
+          <div class="description"><textarea data-time="10AM"></textarea></div>
+          <button data-time="10AM" class="saveBtn"><i class="fas fa-save"></i></button>
+
+        </div>
+        <div class="row time-block" id="11AM">
+          <div class="hour">11AM</div>
+          <div class="description"><textarea data-time="11AM"></textarea></div>
+          <button data-time="11AM" class="saveBtn"><i class="fas fa-save"></i></button>
+
+        </div>
+        <div class="row time-block" id="12PM">
+          <div class="hour">12PM</div>
+          <div class="description"><textarea data-time="12PM"></textarea></div>
+          <button data-time="12PM" class="saveBtn"><i class="fas fa-save"></i></button>
+
+        </div>
+        <div class="row time-block" id="1PM" >
+          <div class="hour">1PM</div>
+          <div class="description"><textarea data-time="1PM"></textarea></div>
+          <button data-time="1PM" class="saveBtn"><i class="fas fa-save"></i></button>
+
+        </div>
+        <div class="row time-block" id="2PM">
+          <div class="hour">2PM</div>
+          <div class="description"><textarea data-time="2PM"></textarea></div>
+          <button data-time="2PM" class="saveBtn"><i class="fas fa-save"></i></button>
+
+        </div>
+        <div class="row time-block" id="3PM">
+          <div class="hour">3PM</div>
+          <div class="description"><textarea data-time="3PM"></textarea></div>
+          <button data-time="3PM" class="saveBtn"><i class="fas fa-save"></i></button>
+
+        </div>
+        <div class="row time-block" id="4PM">
+          <div class="hour">4PM</div>
+          <div class="description"><textarea data-time="4PM"></textarea></div>
+          <button data-time="4PM" class="saveBtn"><i class="fas fa-save"></i></button>
+
+        </div>
+        <div class="row time-block" id="5PM">
+          <div class="hour">5PM</div>
+          <div class="description"><textarea data-time="5PM"></textarea></div>
+          <button data-time="5PM" class="saveBtn"><i class="fas fa-save"></i></button>
+        </div>
+        
+      </div>
     </div>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+    <script src="assets/js/script.js"></script>
   </body>
 </html>
